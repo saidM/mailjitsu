@@ -11,7 +11,10 @@
   "xo": {
     "space": true,
     "semicolon": false,
-    "envs": ["node", "mocha"]
+    "envs": [
+      "node",
+      "mocha"
+    ]
   },
   "dependencies": {
     "mailparser": "^2.1.0",

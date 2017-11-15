@@ -18,7 +18,7 @@ describe('Web', () => {
       request(web)
       .get('/mails')
       .end((err, res) => {
-        expect(err).to.be('null')
+        expect(err).to.be.a('null')
         expect(res.body.mails).to.be.an('array')
         done()
       })
